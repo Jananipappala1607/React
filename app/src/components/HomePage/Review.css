@@ -1,0 +1,97 @@
+/* Ensure no global reset for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Poppins', sans-serif;
+    color: #24272C;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; /* Ensure no padding */
+}
+
+.review-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0; /* Remove padding */
+}
+
+h2 {
+    font-size: 24px;
+    color: #192F59;
+    text-align: center;
+    margin: 0; /* Remove all margins */
+    padding-top: 10px; /* Adjust padding to position text */
+}
+
+.review-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add margin-top to adjust spacing below the heading */
+}
+
+.review {
+    display: flex;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 0 0 48%;
+    margin-bottom: 20px; /* Ensure space between reviews */
+}
+
+.review-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.review-content h3 {
+    font-size: 20px;
+    color: #192F59;
+    margin: 0 0 10px;
+}
+
+.review-content h4 {
+    font-size: 18px;
+    color: #3DB166;
+    margin: 0 0 5px;
+}
+
+.review-content h5 {
+    font-size: 16px;
+    color: #24272C;
+    margin: 0 0 15px;
+}
+
+.review-content p {
+    font-size: 16px;
+    color: #24272C;
+}
+
+button {
+    background-color: #3DB166;
+    color: white;
+    border: 1px solid #3DB166;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #192F59;
+    color: #3DB166;
+}
+
+a {
+    color: #3DB166;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.home-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-specialty {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-deliver {
+  font-size: 18px;
+  color: #666;
+}
+
+.home-services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.home-service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.home-service-icon {
+  margin-bottom: 10px;
+}
+
+.home-service-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-service-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.home-read-more {
+  background-color: #3DB166; /* Match Get Started button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Match Get Started button */
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.home-read-more:hover {
+  background-color: #192F59; /* Match Get Started button hover state */
+  color: #3DB166; /* Match Get Started button hover state */
+}
+
+.sliding-banner {
+  width: 100vw; /* Full width */
+  margin-left: calc(-50vw + 50%); /* Center align full width */
+  overflow: hidden;
+  background-color: #3DB166; /* Match Get Started button */
+  margin-top: 40px; /* Doubled the margin-top for more space */
+  padding: 15px 0; /* Add padding to make the content more spacious */
+}
+
+.sliding-banner-content {
+  display: flex;
+  animation: slide 20s linear infinite; /* Increased duration for slower animation */
+}
+
+.banner-item {
+  flex: none; /* Changed from flex: 1 to flex: none for better spacing */
+  padding: 15px 30px; /* Added horizontal padding for better spacing */
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Slide only halfway for a seamless loop */
+}

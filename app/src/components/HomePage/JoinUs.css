@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+    color: #24272C;
+    margin: -20px 0 -40px; /* Adjusted negative margins for top and bottom */
+}
+
+.join-us-container {
+    width: 100%;
+    padding: 1% 0 0; /* Adjusted padding to reduce top and bottom space */
+    margin: 0 auto;
+}
+
+.breadcrumbs {
+    font-size: 16px;
+    color: #3DB166;
+    margin-bottom: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.content {
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.content h1 {
+    font-size: 32px;
+    color: #192F59;
+    margin-bottom: 10px;
+}
+
+.years-experience {
+    font-size: 24px;
+    color: #192F59;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.features {
+    margin: 10px 0;
+}
+
+.feature {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.feature .icon {
+    color: #3DB166;
+    margin-right: 10px;
+}
+
+.primary-button {
+    background-color: #3DB166;
+    color: #fff;
+    border: 1px solid #3DB166;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    background-color: #192F59;
+    color: #3DB166;
+}
+
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}

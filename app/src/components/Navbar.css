@@ -1,0 +1,212 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F2F2F2;
+  color: #24272C;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px; /* Add padding to the top to avoid content hiding behind the navbar */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-container {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+  background-color: #e9ecef;
+  padding: 5px 0;
+}
+
+.top-bar .container-fluid {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-link {
+  color: #000000;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.top-link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+/* Add styles for navbar brand text */
+.navbar-brand-text {
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav-link {
+  color: #3DB166;
+}
+
+.nav-link:hover {
+  color: #192F59;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #3DB166;
+  color: white;
+  border: 1px solid #3DB166;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #192F59;
+  color: #3DB166;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.dropdown-item {
+  color: #3DB166;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+  color: #192F59;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #060606;
+  width: 100%;
+  margin: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Icons Colors */
+.social-icon {
+  font-size: 24px;
+  margin-left: 10px;
+  color: #3DB166;
+}
+
+.social-icon:hover {
+  color: #192F59;
+}
+
+/* Quick Call and Get Started Styles */
+.d-flex .quick-call {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.quick-call .call-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #3DB166; /* Primary color */
+}
+
+.quick-call .call-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-call .call-details span:first-child {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.quick-call .call-details span:last-child {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.btn-get-started {
+  background-color: #3DB166; /* Primary color */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-get-started:hover {
+  background-color: #192F59; /* Secondary color */
+  color: #3DB166; /* Primary color */
+}
+
+/* Buttons */
+.button {
+  color: #ffffff;
+  background-color: #3DB166;
+  border: 1px solid #3DB166;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #192F59;
+  color: #3DB166;
+}
+
+/* Box (icon or image with text) */
+.box {
+  padding: 10px;
+}
